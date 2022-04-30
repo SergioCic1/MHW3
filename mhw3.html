@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Test della personalità</title>
+            <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+            <link rel="stylesheet" href="provided-style.css"/>
+            <link rel="stylesheet" href="mhw3.css"/>
+            <script src="constants.js" defer="true"></script>
+            <script src="script.js" defer="true"></script>
+            <script src="mhw3.js" defer="true"></script>
+    </head>
+    
+    <body>
+        <article id="incipit">
+            <!-- inizio intestazione -->
+            <header>
+                <h1>Web Programming</h1>
+                <div>
+                    <span class="mhw">M</span>
+                    <span class="mhw">H</span>
+                    <span class="mhw">W</span>
+                    <span class="mhw">2</span>
+                </div>
+            </header>
+            <h1 id="titolo_test">Test della personalità: <br> il Giappone antico</h1>
+            <!-- fine intestazione -->
+            
+            <!-- sezione di ricerca -->
+            <p id="intro_sezione_ricerca"> Prima di cominciare... </p>
+            
+            <section id="sezione_ricerca">
+                <div id="ricerca_frase">
+                    <p class="testo_ricerca">
+                    Esprimi un tuo dubbio circa qualcosa, riceverai delle frasi motivazionali che ti consentiranno di affrontare il test a cuor più leggero.
+                    </p>
+                    <form class="selezione">
+                        <select class="barra_selezione">
+                            <option> afraid </option>
+                            <option> happy </option>
+                            <option> busy </option>
+                            <option> people </option>
+                            <option> api </option>
+                            <option> you </option>
+                            <option> life </option>
+                            <option> food </option>
+                        </select>
+                        <input type="submit" class="tasto_conferma" value="OK"> </input>
+                    </form>
+                    
+                    <!-- sezione di output della prima ricerca-->
+                    <section class="output_ricerca"> </section>
+                </div>
+                
+                <div id="ricerca_giappone">
+                    <p class="testo_ricerca">
+                    Seleziona un argomento circa il Giappone, familiarizzare con immagini riguardanti l'argomento del test, infornderà più sicurezza nelle tue scelte.
+                    </p>
+                    <form class="selezione">
+                        <select class="barra_selezione">
+                            <option> manga </option>
+                            <option> anime </option>
+                            <option> sakura </option>
+                            <option> sushi </option>
+                            <option> tokyo </option>
+                        </select>
+                        <input type="submit" class="tasto_conferma" value="OK"> </input>
+                    </form>
+                    
+                    <!-- sezione di output della seconda ricerca-->
+                    <section class="output_ricerca"> </section>
+                </div>
+            </section>
+            <!-- fine sezione di ricerca -->
+            
+            <!-- prima domanda -->
+            <section class="question-name">
+                <h1>Scegli una figura storica:</h1>
+            </section>
+            
+            <section class="choice-grid">
+                
+                <div class="img_risposta" data-choice-id="blep" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="images/1_1.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="happy" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_2.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleeping" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_3.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="dopey" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_4.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="burger" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_5.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="cart" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_6.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="nerd" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_7.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="shy" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_8.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleepy" data-question-id="one" data-scartata="false">
+                    <img class= "main_image" src="./images/1_9.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+            </section>
+            <!-- fine prima domanda -->
+            
+            <!-- seconda domanda -->
+            <section class="question-name">
+                <h1>Scegli un dipinto:</h1>
+            </section>
+            
+            <section class="choice-grid">
+                <div class="img_risposta" data-choice-id="blep" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="images/2_1.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="happy" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_2.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleeping" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_3.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="dopey" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_4.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="burger" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_5.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="cart" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_6.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="nerd" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_7.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="shy" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_8.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleepy" data-question-id="two" data-scartata="false">
+                    <img class= "main_image" src="./images/2_9.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+            </section>
+            <!-- fine seconda domanda -->
+            
+            <!-- terza domanda -->
+            <section class="question-name">
+                <h1>Scegli una leggenda:</h1>
+            </section>
+            
+            <section class="choice-grid">
+                <div class="img_risposta" data-choice-id="blep" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="images/3_1.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="happy" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_2.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleeping" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_3.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="dopey" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_4.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="burger" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_5.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="cart" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_6.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="nerd" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_7.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="shy" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_8.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+                
+                <div class="img_risposta" data-choice-id="sleepy" data-question-id="three" data-scartata="false">
+                    <img class= "main_image" src="./images/3_9.jpg"/>
+                    <img class="checkbox" src="images/unchecked.png"/>
+                    
+                    <div></div>
+                </div>
+            </section>
+            <!-- fine terza domanda -->
+            
+            <!-- blocco conclusivo -->
+            <div class="separazione"> </div>
+            
+            <section id="blocco_conclusivo">
+                <h1 class="giudizio"></h1>
+                <p class="testo_giudizio"></p>
+                <button class="redo"> ricomincia il test! </button>
+            </section>
+            <!-- blocco conclusivo -->
+            
+        </article>
+    </body>
+</html>
